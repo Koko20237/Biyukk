@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Kece Koko</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+      margin: 0;
+      padding: 0;
+      color: #333;
+      overflow-x: hidden;
+    }
+    header {
+      background-color: #fff;
+      text-align: center;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      color: #ff6b6b;
+      animation: fadeIn 2s ease-in-out;
+    }
+    .container {
+      padding: 20px;
+      text-align: center;
+    }
+    .container img {
+      max-width: 300px;
+      margin-top: 20px;
+      animation: bounce 2s infinite;
+    }
+    .btn {
+      display: inline-block;
+      margin: 20px 0;
+      padding: 10px 20px;
+      font-size: 1.2em;
+      color: #fff;
+      background-color: #ff6b6b;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background 0.3s, transform 0.2s;
+    }
+    .btn:hover {
+      background-color: #fa5252;
+      transform: scale(1.1);
+    }
+    footer {
+      background: #fff;
+      text-align: center;
+      padding: 10px 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+    }
+    footer p {
+      margin: 0;
+      color: #999;
+    }
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    @keyframes bounce {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-20px);
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Selamat Datang di Website Abiyan!</h1>
+  </header>
+  <div class="container">
+    <p>Ini adalah website pertama yang dibuat oleh gw sendiriðŸ˜…</p>
+    <img src="Abiyan.jpg" alt="Gambar Kece">
+    <a href="#" class="btn">Klik Disini</a>
+  </div>
+  <footer>
+    <p>&copy; 2024 Website Khusus pens emyu</p>
+  </footer>
+</body>
+</html>
